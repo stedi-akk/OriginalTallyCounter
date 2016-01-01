@@ -1,0 +1,76 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="RedTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/red_primary</item>
+        <item name="colorPrimaryDark">@color/red_primary_dark</item>
+        <item name="colorAccent">@color/red_accent</item>
+        <item name="colorAccentDialog">@color/red_accent</item>
+        <item name="android:windowBackground">@color/red_window_background</item>
+    </style>
+
+    <style name="OrangeTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/orange_primary</item>
+        <item name="colorPrimaryDark">@color/orange_primary_dark</item>
+        <item name="colorAccent">@color/orange_accent</item>
+        <item name="colorAccentDialog">@color/orange_accent</item>
+        <item name="android:windowBackground">@color/orange_window_background</item>
+    </style>
+
+    <style name="BrownTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/brown_primary</item>
+        <item name="colorPrimaryDark">@color/brown_primary_dark</item>
+        <item name="colorAccent">@color/brown_accent</item>
+        <item name="colorAccentDialog">@color/brown_accent</item>
+        <item name="android:windowBackground">@color/brown_window_background</item>
+    </style>
+
+    <style name="GreenTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryDark">@color/green_primary_dark</item>
+        <item name="colorAccent">@color/green_accent</item>
+        <item name="colorAccentDialog">@color/green_accent</item>
+        <item name="android:windowBackground">@color/green_window_background</item>
+    </style>
+
+    <style name="BlueTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorPrimaryDark">@color/blue_primary_dark</item>
+        <item name="colorAccent">@color/blue_accent</item>
+        <item name="colorAccentDialog">@color/blue_accent</item>
+        <item name="android:windowBackground">@color/blue_window_background</item>
+    </style>
+
+    <style name="PinkTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/pink_primary</item>
+        <item name="colorPrimaryDark">@color/pink_primary_dark</item>
+        <item name="colorAccent">@color/pink_accent</item>
+        <item name="colorAccentDialog">@color/pink_accent</item>
+        <item name="android:windowBackground">@color/pink_window_background</item>
+    </style>
+
+    <style name="ActionBarStyle" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">?colorAccentDialog</item>
+        <item name="android:spinnerDropDownItemStyle">@style/DialogSpinnerItemStyle</item>
+    </style>
+
+    <style name="DialogSpinnerItemStyle" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
+    </style>
+
+    <style name="ToolbarShadow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">8dp</item>
+        <item name="android:background">@drawable/toolbar_shadow</item>
+    </style>
+
+</resources>
